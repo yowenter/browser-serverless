@@ -1,14 +1,13 @@
 
-# Browserless Starter-pack
-This simple starter-pack gets you up and running with all the code you used in the debugger. Just install and run!
-
-## Installation
-
-1. NodeJS >= 8 is installed
-2. 'npm install'
-3. 'npm start'
+# Browserless 
+Chrome web html downloader.
+浏览器下载网页代理。 
 
 
 ## RUN
 
 `docker-compose -f docker-compose.yml up -d `
+
+使用方式 http://localhost:8080/fetch?url=XXX
+
+
