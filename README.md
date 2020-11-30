@@ -8,3 +8,7 @@ This simple starter-pack gets you up and running with all the code you used in t
 2. 'npm install'
 3. 'npm start'
 
+
+## RUN
+
+`docker-compose -f docker-compose.yml up -d `

@@ -1,7 +1,7 @@
 const express = require('express');
 
 const puppeteer = require('puppeteer');
-const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+const IS_PRODUCTION = process.env.NODE_ENV === 'prod';
 const browserless_host = 'ws://' + process.env.BROWSERLESS_HOST;
 
 
